@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="kowalski, janusz kowalski, wypowiedzi, generator">
+    <meta name="description" content="Generator wypowiedzi Janusza Kowalskiego">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title >Generator wypowiedzi Janusza Kowalskiego</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="JS/script.js"></script>
+
+</head>
+
+<body  onload="generuj()">
+
+  <div class="container">
+    <div class="navbar">
+      <a href="https://twitter.com/tomitoja"><img src = "images/logo.png" class="logo"></a>
+    <!--  <nav>
+        <ul id="menuList">
+          <li> <a href"">Jeden</a></li>
+          <li> <a href"">Dwa</a></li>
+          <li> <a href"">Trzy</a></li>
+          <li> <a href"">Cztery</a></li>
+
+        </ul>
+      </nav>
+      <img src = "images/menu.png" class = "menu-icon" onclick="togglemenu()">-->
+
+
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <h2 id="wypowiedź1"></h2>
+        <h3 id="wypowiedź"></h3>
+        <p> Janusz Kowalski</p>
+        <button type="button" onclick="generuj()"> Generuj wypowiedź <img src="images/arrow.png"></button>
+      </div>
+      <div class = "col-2">
+        <img src="images/kowalski.png" class="controller">
+        <div class="color-box"></div>
+        <!--<div class="add-btn">
+          <img src="images/add.png">
+          <p> <small> Add to cart</small></p>-->
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="social-links">
+    <a href="https://twitter.com/tomitoja"><img src="images/tw.png"></a>
+  </div>
+
+  <br>
+
+
+
+
+
+
+<script>
+var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+function togglemenu(){
+  if (menuList.style.maxHeight == "0px"){
+    menuList.style.maxHeight = "130px";
+  }
+  else {
+    menuList.style.maxHeight = "0px";
+  }
+}
+</script>
+
+
+</body>
+</html>
