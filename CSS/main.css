@@ -70,20 +70,20 @@ margin: 100px 0;
   font-size: 22px;
   color: #707070;
   font-weight: 100;
-  margin: 20px 0 10px;
+  margin: 18px 0 10px;
 }
 
 .col-1 p{
   font-size: 18px;
   color: #b7b7b7;
   font-weight: 100;
-  margin: 30px 0;
+  margin: 25px 0;
 
 }
 
 .col-1 h4{
-  margin: 30px 0;
-  font-size: 16px;
+  margin: 25px 0;
+  font-size: 14px;
 }
 
 button{
@@ -199,12 +199,12 @@ button:hover{
   }
   .row{
     flex-direction: column-reverse;
-    margin: 50px 0;
+    margin: 40px 0;
   }
 
   .col-2{
     flex-basis: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
   }
 
